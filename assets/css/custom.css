@@ -27,6 +27,11 @@ header {
     }
 }
 
+#logo {
+    height: 30px;
+    width: 200px;
+}
+
 
 .borrar-curso {
     background-color: red;
