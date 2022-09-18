@@ -75,11 +75,11 @@ cargarEventListeners();
                     }
                 });
     
-               articulosCarrinho = [...cursos];
+               articulosCarrinho = [cursos];
     
             }else{
                 
-                articulosCarrinho = [...articulosCarrinho,infoCurso];
+                articulosCarrinho = [articulosCarrinho, infoCurso];
                   
             }
     
@@ -92,7 +92,7 @@ cargarEventListeners();
         function carrinhoHTML(){
     
             //limpar html
-            limpaarHTML();
+            limparHTML();
     
     
             
